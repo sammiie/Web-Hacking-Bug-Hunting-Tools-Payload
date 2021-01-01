@@ -32,3 +32,13 @@ Navigate to the directory where you have **Rubeus** and use the command below;
 ## Kerberoasting
 
 >Kerberoasting allows a user to request a service ticket for any service with a registered SPN then use that ticket to crack the service password. If the service has a registered SPN then it can be Kerberoastable however the success of the attack depends on how strong the password is and if it is trackable as well as the privileges of the cracked service account. To enumerate Kerberoastable accounts I would suggest a tool like BloodHound to find all Kerberoastable accounts, it will allow you to see what kind of accounts you can kerberoast if they are domain admins, and what kind of connections they have to the rest of the domain.
+
+**Command**
+
+`Rubeus.exe kerberoast`
+
+>This will dump the Kerberos hash of any kerberoastable users
+
+The hashes can be cracked using `hashcat`
+
+`root@kali:~/Desktop/thm# hashcat -m 13100 -a 0 hash.txt pass.txt`
