@@ -27,4 +27,4 @@ Before password spraying with Rubeus, you need to add the domain controller doma
 
 ![image](https://user-images.githubusercontent.com/16500435/103440287-7a672800-4c44-11eb-93c1-293160e888c8.png)
 
->
+>This will take a given password and "spray" it against all found users then give the .kirbi TGT for that user 
