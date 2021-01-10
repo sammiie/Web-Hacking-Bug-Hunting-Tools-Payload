@@ -25,3 +25,9 @@ Navigate to the subbrute directory
 `python3 sublist3r.py -d example.com`
 
 ![image](https://user-images.githubusercontent.com/16500435/104125773-41703700-5359-11eb-9898-f110012870e8.png)
+
+This subdomain scanner also includes a cool feature that only scans subdomains that have certain ports open. For example:
+
+`python sublist3r.py -d wikipedia.com.com -p 80,443`
+
+This request will perform a subdomain enumeration and filter only those hosts with 80 and 443 ports open.
