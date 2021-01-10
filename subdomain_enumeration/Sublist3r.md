@@ -1,6 +1,6 @@
 ## Installation
 
-Clone repo from git
+Clone repo from git [https://github.com/sammiie/Sublist3r](url)
 
 ![image](https://user-images.githubusercontent.com/16500435/104125605-29e47e80-5358-11eb-9864-9c9e258a81ea.png)
 
